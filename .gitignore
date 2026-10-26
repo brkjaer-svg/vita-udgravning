@@ -1,0 +1,17 @@
+# Python-cache og testcache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Sagsdata (projektfiler, rapporter, eksporter) hører i OneDrive/SharePoint, ikke i git
+projekter/
+projektmappe.txt
+*.ifc
+*.pdf
+
+# Lokale Streamlit-hemmeligheder
+.streamlit/secrets.toml
+
+# Midlertidige filer
+*.tmp
+~$*
